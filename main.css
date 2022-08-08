@@ -71,6 +71,10 @@ ul li {
   margin-right: 62px;
 }
 
+.menu__item:last-child {
+  margin-right: 0;
+}
+
 .menu__link {
   font-size: 16px;
   text-decoration: none;
@@ -116,6 +120,7 @@ ul li {
 }
 
 .btn {
+  display: inline-block;
   background: #8F00FF;
   border-radius: 4px;
   padding: 18px 35px;
@@ -129,8 +134,11 @@ ul li {
   background: #741BBA;
 }
 
+.hero__content {
+  margin-bottom: 206px;
+}
+
 .section {
-  margin-top: 206px;
   margin-bottom: 122px;
 }
 
@@ -263,8 +271,7 @@ ul li {
   color: #fff;
 }
 
-.news__section {
-  margin-top: 90px;
+.news__list {
   margin-bottom: 46px;
 }
 
@@ -286,6 +293,7 @@ ul li {
 }
 
 .news__date {
+  display: block;
   font-size: 14px;
   margin-bottom: 4px;
 }
@@ -294,7 +302,6 @@ ul li {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 4px;
-  margin-top: 13px;
 }
 
 .news__text {
