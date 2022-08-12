@@ -10,7 +10,7 @@
 <body>
   <div class="wrapper main-page-wrapper">
     <section class="hero">
-        <div class="container">
+        <div class="container hero__container">
           <header class="header">
             <a href="/" class="logo">
               <img src="./img/logo-1.png" alt="" class="logo__quiz">
@@ -44,8 +44,10 @@
     </section>
     <section class="section">
       <div class="container">
-        <h2 class="section__title">Новинки недели</h2>
-        <img src="./img/new-badge.png" alt="" class="section__title-img">
+        <div class="section__title section__title--offers">
+          <h2 class="section__title-name">Новинки недели</h2>
+          <img src="./img/new-badge.png" alt="" class="section__title-img">
+        </div>
         <ul class="offers">
           <li class="offers__item">
             <img src="./img/mq-1.png" alt="" class="offers__header">
@@ -106,10 +108,10 @@
     </section>
     <section class="news">
       <div class="container">
-        <h2 class="section__title">Прошедшие игры</h2>
+        <h2 class="section__title section__title--news">Прошедшие игры</h2>
         <ul class="news__list">
           <li class="news__item">
-            <img src="./img/photo-1.png" alt="" class="news__img">
+            <img src="../../img/photo-1.png" alt="" class="news__pic">
             <div class="news__text">
               <time class="news__date">1 января</time>
               <div class="news__title">Новогодний квиз</div>
@@ -117,13 +119,14 @@
             </div>
           </li>
           <li class="news__item">
-            <img src="./img/photo-2.png" alt="" class="news__img">
+            <img src="../../img/photo-2.png" alt="" class="news__pic">
             <div class="news__text">
               <time class="news__date">8 марта</time>
               <div class="news__title">Весенняя игра</div>
               <div class="news__desc">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</div>
             </div>
           </li>
+
         </ul>
       </div>
       <div class="pager pager--news">
